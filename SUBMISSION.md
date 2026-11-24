@@ -35,3 +35,12 @@ The sample `ord-2026-114` loads as FULL_REFUND with 10000 basis points, 8 days a
 - Contract: https://explorer-studio.genlayer.com/address/0xfc261255773e316aBbd32cd474178376BAfdDD1d
 - Underlying contract: https://github.com/Fan-Yu0/refund-policy-adjudicator
 - Required evidence: https://github.com/Fan-Yu0/genlayer-refund-policy-console
+
+## Submission status
+
+- Live site verified on 2026-11-24: `ord-2026-114` returns FULL_REFUND and an
+  on-chain quote of `100.000000` for a `100.000000` purchase amount.
+- `npm run check`: lint clean, 19 tests passed, production build successful.
+- Portal Projects form filled and validated on 2026-11-24. Screenshot:
+  `../artifacts/refund_project_form_ready.png`.
+- Remaining: interactive reCAPTCHA and final submission confirmation in the Portal.
